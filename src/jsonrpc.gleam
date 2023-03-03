@@ -3,7 +3,6 @@ import gleam/dynamic as d
 import gleam/json
 import gleam/result
 import gleam/string
-import gleam/option.{None, Option, Some}
 
 pub fn jsonrpc_version() -> String {
   "2.0"
