@@ -22,3 +22,8 @@ model User {
   name  String?
   posts Post[]
 }
+
+enum Role {
+  USER
+  ADMIN
+}
